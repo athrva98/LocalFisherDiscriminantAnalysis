@@ -17,7 +17,7 @@ LFDA aims to find a transformation that maximizes the between-class scatter whil
 - **LFDA Algorithm**: Implements the LFDA algorithm for supervised dimensionality reduction, including fitting the model to input data and transforming new data.
 - **Distance Metrics**: Supports multiple distance metrics, including Euclidean, Manhattan, cosine, and more, for versatile pairwise distance computations.
 - **Python Integration**: Provides Python bindings using Nanobind, making the LFDA implementation accessible in Python environments.
-- One improvement over this implementation is Kernel LFDA, which will be implemented soon.
+- One improvement over this implementation is Kernel LFDA, which willbe implemented soon.
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ LFDA aims to find a transformation that maximizes the between-class scatter whil
 1. **Clone the repository**:
    
    ```sh
-   git clone https://github.com/yourusername/lfda-implementation.git
+   git clone --recursive-submodules https://github.com/athrva98/LocalFisherDiscriminantAnalysis.git
    ```
 
 2. **Compile the C++ Code**:
@@ -115,12 +115,9 @@ License
 -------
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 Acknowledgments
 ---------------
 
 * The Eigen library for linear algebra operations.
 * OpenMP for parallel computation capabilities.
 * Nanobind for facilitating Python integration.
-
-
